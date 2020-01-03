@@ -23,7 +23,7 @@ end
 
 def get_japanese_emoticon(path, emoticon)
   smileys = load_library(path)
-  
+  equivalent = smileys["get_emoticon"][emoticon]
   
   
   
