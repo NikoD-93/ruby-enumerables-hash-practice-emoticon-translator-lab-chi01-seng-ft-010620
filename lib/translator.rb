@@ -26,6 +26,8 @@ def get_japanese_emoticon(path, emoticon)
   equivalent = smileys["get_emoticon"][emoticon]
   if equivalent 
     equivalent 
+  else 
+    "Sorry, that emoticon was not found"
   end 
   
   
