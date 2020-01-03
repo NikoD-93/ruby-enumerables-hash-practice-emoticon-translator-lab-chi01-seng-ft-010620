@@ -37,4 +37,6 @@ end
 def get_english_meaning(path, japanese_emoticon)
   the_meanings = load_library(path)
 equivalent_m = the_meanings["get_meaning"][japanese_emoticon]
+else 
+  "Sorry, that emoticon was not found"
 end
